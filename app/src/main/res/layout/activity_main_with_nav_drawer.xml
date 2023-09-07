@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_layout"
+        app:menu="@menu/nav_menu_user" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img5"
+        android:orientation="vertical"
+        >
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/nav_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/company_colour2"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:cardCornerRadius="60dp"
+            app:cardElevation="40dp"
+            app:title="TEMPPO"
+            app:titleTextColor="@color/company_colour">
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to the Time Manager App"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/your_text_color_secondary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Stay organized and boost your productivity"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:textColor="@color/your_text_color_secondary"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="With our time management app, you can efficiently manage your tasks, set reminders, track your progress, and achieve your goals."
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textColor="@color/your_text_color_secondary"
+                    android:layout_marginTop="16dp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnGoLogin"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_margin="6dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/your_text_color_secondary"
+            android:text="Register"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnGoRegister"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_margin="6dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:text="Login"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

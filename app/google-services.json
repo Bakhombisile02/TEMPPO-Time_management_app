@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "413514776342",
+    "firebase_url": "https://opsc-db-395e3-default-rtdb.firebaseio.com",
+    "project_id": "opsc-db-395e3",
+    "storage_bucket": "opsc-db-395e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413514776342:android:3db90769f3d343e708da37",
+        "android_client_info": {
+          "package_name": "com.example.opsc_poe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413514776342-03jb94amqhnimkeeescbm32keu893utm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN_a7Yabuz6pDuIvNy8LWIuS1gO60IfU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413514776342-03jb94amqhnimkeeescbm32keu893utm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

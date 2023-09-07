@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/l_nav_HP"
+            android:icon="@drawable/baseline_home_icon"
+            android:title="Home Page" />
+
+        <item
+            android:id="@+id/l_nav_Calendar"
+            android:icon="@drawable/baseline_calendar"
+            android:title="Calendar" />
+
+        <item
+            android:id="@+id/l_nav_Analysis"
+            android:title="Analysis">
+                <menu>
+                        <item
+                            android:icon="@drawable/baseline_data_exploration"
+                            android:id="@+id/l_nav_Dash"
+                            android:title="Dash Board"/>
+                        <item
+                            android:icon="@drawable/baseline_barchart"
+                            android:id="@+id/l_nav_bgraph"
+                            android:title="Pie Chart"/>
+
+
+                </menu>
+        </item>
+
+        <item
+            android:id="@+id/l_nav_Categories"
+            android:title="Categories">
+                <menu>
+                        <item
+                            android:icon="@drawable/baseline_add"
+                            android:id="@+id/l_nav_addCategory"
+                            android:title="Add Category"/>
+                        <item
+                            android:icon="@drawable/baseline_timesheet"
+                            android:id="@+id/l_nav_Timesheet"
+                            android:title="Time Sheet Entry"/>
+                        <item
+                            android:icon="@drawable/baseline_search"
+                            android:id="@+id/l_nav_viewTimesheet"
+                            android:title="View Time Sheets"/>
+                        <item
+                            android:icon="@drawable/baseline_timer"
+                            android:id="@+id/l_nav_pTimer"
+                            android:title="Project Timer"/>
+
+
+                </menu>
+        </item>
+
+
+        <item
+            android:title="About">
+                <menu>
+                        <item
+                            android:id="@+id/l_nav_terms"
+                            android:title="Terms and Conditions" />
+                        <item
+                            android:id="@+id/l_nav_userguide"
+                            android:title="User Guide"/>
+                        <item
+                            android:id="@+id/l_nav_feedback"
+                            android:title="Feedback"/>
+                </menu>
+        </item>
+        <item
+            android:title="Account">
+                <menu>
+                        <item
+                            android:id="@+id/l_nav_Settings"
+                            android:icon="@drawable/baseline_settings"
+                            android:title="Settings" />
+                        <item
+                            android:id="@+id/l_nav_Signout"
+                            android:icon="@drawable/baseline_exit"
+                            android:title="Sign Out"/>
+                </menu>
+        </item>
+
+
+</menu>
